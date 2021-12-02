@@ -4,6 +4,7 @@
  */
 package Builder;
 
+import Vehiculos.TiposVehiculo;
 import sinpatron.Carroceria;
 import sinpatron.IMotor;
 /**
@@ -17,4 +18,5 @@ public interface Builder {
    void setModelo(String modelo);
    void setMotor (IMotor motor);
    void setTipoCarroceria (Carroceria carroceria);
+   void setTiposVehiculo(TiposVehiculo tiposVehiculo);
 }

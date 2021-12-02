@@ -1,6 +1,7 @@
 
 package Builder;
 
+import Vehiculos.TiposVehiculo;
 import sinpatron.Carroceria;
 import sinpatron.IMotor;
 
@@ -40,6 +41,11 @@ public class CarBuilder implements Builder{
     @Override
     public void setTipoCarroceria(Carroceria carroceria) {
         this.carroceria=carroceria;
+    }
+
+    @Override
+    public void setTiposVehiculo(TiposVehiculo tiposVehiculo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }

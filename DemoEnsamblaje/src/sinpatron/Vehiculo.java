@@ -1,6 +1,9 @@
 package sinpatron;
 
+import Vehiculos.TiposVehiculo;
+
 public class Vehiculo {
+   public TiposVehiculo tipoVehiculo;
    public String color;
    public boolean direccionAsistida;
    public String marca;
