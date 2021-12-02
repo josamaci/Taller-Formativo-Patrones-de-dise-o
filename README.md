@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-- José Macias
+- José Macías
 - Kevin Valle
 - Nicolás Plaza
 
@@ -20,7 +20,7 @@ Así nos evitamos:
 
 ### Decorator
 
-Por otro lado el patrón decorator nos ayuda con los dispositivos adicionales de los vehículos. A un auto ya construido deberíamos poder cambiarle sus partes o aumentarles nuevas. Gracias a este patrón podemos agrergar funcinalidades adicionales a los autos durante el tiempo de ejecución sin descomponer el código.
+Por otro lado, el patrón decorator nos ayuda con los dispositivos adicionales de los vehículos. A un auto ya construido deberíamos poder cambiarle sus partes o aumentarles nuevas. Gracias a este patrón podemos agregar funcionalidades adicionales a los autos durante el tiempo de ejecución sin descomponer el código.
 
 Utilizando el patrón decorator nos evitamos:
 
